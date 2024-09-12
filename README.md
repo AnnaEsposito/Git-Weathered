@@ -1,4 +1,5 @@
 # Mi App CLI Clima
-En que consiste esta APP CLI? Como se utiliza?
+Esta aplicacion consiste en una aplicacion CLI que permite que introduzcas una ubicacion determinada
+y puedas obtener la descripcion del clima y la temperatura de ese pais. 
 
 
