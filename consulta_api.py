@@ -2,12 +2,13 @@
 import requests
 
 def obtener_clima(ciudad):
+    #Me conecto a la API
     api_key = "d9cb110d0d56f149b5dec7fc0c1f1c37"
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     
     parametros = {
         "q": ciudad,  # Nombre de la ciudad
-        "appid": api_key,  # Tu clave de API
+        "appid": api_key,  # Mi clave de API
         "units": "metric"  # Opcional: para obtener la temperatura en grados Celsius
     }
     
