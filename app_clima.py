@@ -5,6 +5,7 @@ import json
 import csv
 from consulta_api import obtener_clima
 
+#Definir los parametros de la aplicacion CLI con "argparse".
 def main():
     parser = argparse.ArgumentParser(description="APP DEL CLIMA: Esta aplicación te permite conocer el estado climático de una ciudad en concreto.\n\n"
                 "Para el efecto debes introducir los siguientes datos:\n"
@@ -18,6 +19,7 @@ def main():
                         'de la misma forma: python app_clima.py --formato #Ejemp:json')
 
     args = parser.parse_args()
+    
     
     try:
         temperatura, estado_clima = obtener_clima(args.ciudad)
