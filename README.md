@@ -20,7 +20,7 @@ clima-api-cli-python/
 ```bash
 git clone https://github.com/AnnaEsposito/edu-clima-api-cli-python.git
 cd edu-clima-api-cli-python
-
+```
 2. Get your own API key from OpenWeatherMap and add it inside consulta_api.py.
 
 ## 🧪 Running the app
