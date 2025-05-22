@@ -27,6 +27,8 @@ cd edu-clima-api-cli-python
 
 ## 🧪 Running the app
 From your terminal:
+```bash
 python app_clima.py --ciudad "Asuncion" --formato json
+```
 You can change the --formato argument to one of the supported formats: json, csv, or text.
 
