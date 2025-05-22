@@ -5,10 +5,12 @@ This project is a Command Line Interface (CLI) application in Python that retrie
 It fetches the current weather information of any city in the world and displays the data in different formats.
 
 ## 📦 Project structure
+```bash
 clima-api-cli-python/
 ├── app_clima.py # Main script that takes terminal arguments
 ├── consulta_api.py # Handles the weather API request
 ├── README.md # Project documentation
+```
 
 ## 🧰 Technologies used
 - Python 3.x
